@@ -1,0 +1,54 @@
+h1{
+    font-family:Arial;
+    color: purple;
+
+}
+
+.important{
+    color: red;
+}
+
+#somesuch{
+    color: blue;
+}
+span.important{
+    color: darkred;
+}
+
+a:link{
+ 
+    text-decoration: none;
+    color:greenyellow;
+}
+
+a:visited{
+
+    color: green;
+}
+
+a:hover{
+
+    text-decoration: underline;
+}
+p:first-letter{
+    font-size: 3em;
+}
+article::before{
+    content: '*******';
+}
+p:first-of-type{
+    margin-right: 200px;
+}
+li:first-child{
+    font-style: italic;
+}
+li:last-child{
+    font-weight: bold;
+}
+
+span[title]{
+    color: black;
+}
+a[href^="email"]{
+    font-size: 2em;
+}
